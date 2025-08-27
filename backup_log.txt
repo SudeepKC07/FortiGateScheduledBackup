@@ -1,0 +1,102 @@
+2025-08-27 16:04:43.017694 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-27 16:04:52.782716 - [DEBUG] Detected prompt: HO #
+2025-08-27 16:04:55.289378 - [SUCCESS] Backup sent to TFTP for HO -> HO_backup_20250827-160452.cfg
+2025-08-27 16:04:55.294543 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-27 16:05:04.028155 - [DEBUG] Detected prompt: BR1 #
+2025-08-27 16:05:08.438191 - [SUCCESS] Backup sent to TFTP for BR1 -> BR1_backup_20250827-160504.cfg
+2025-08-27 16:05:08.462471 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-27 16:05:18.432066 - [DEBUG] Detected prompt: BR2 #
+2025-08-27 16:05:23.038663 - [SUCCESS] Backup sent to TFTP for BR2 -> BR2_backup_20250827-160518.cfg
+2025-08-27 16:37:19.733606 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-27 16:37:29.543155 - [DEBUG] Detected prompt: HO #
+2025-08-27 16:37:32.451694 - [SUCCESS] Backup sent to TFTP for HO -> HO_backup_20250827-163729.cfg
+2025-08-27 16:37:32.456965 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-27 16:37:41.785129 - [DEBUG] Detected prompt: BR1 #
+2025-08-27 16:37:44.191699 - [SUCCESS] Backup sent to TFTP for BR1 -> BR1_backup_20250827-163741.cfg
+2025-08-27 16:37:44.197151 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-27 16:37:59.999254 - [DEBUG] Detected prompt: BR2 #
+2025-08-27 16:38:02.606460 - [SUCCESS] Backup sent to TFTP for BR2 -> BR2_backup_20250827-163800.cfg
+2025-08-28 08:42:30.342593 - [SKIP] Last backup for HO (192.168.209.185) is 0 days old (<7). Skipping.
+2025-08-28 08:42:30.348658 - [SKIP] Last backup for BR1 (192.168.209.2) is 0 days old (<7). Skipping.
+2025-08-28 08:42:30.352510 - [SKIP] Last backup for BR2 (192.168.209.58) is 0 days old (<7). Skipping.
+2025-08-28 08:44:08.794713 - [SKIP] Last backup for HO (192.168.209.185) is 0 days old (<7). Skipping.
+2025-08-28 08:44:08.798862 - [SKIP] Last backup for BR1 (192.168.209.2) is 0 days old (<7). Skipping.
+2025-08-28 08:44:08.802235 - [SKIP] Last backup for BR2 (192.168.209.58) is 0 days old (<7). Skipping.
+2025-08-28 08:46:52.004948 - [SKIP] Last backup for HO (192.168.209.185) is 0 days old (<7). Skipping.
+2025-08-28 08:46:52.009153 - [SKIP] Last backup for BR1 (192.168.209.2) is 0 days old (<7). Skipping.
+2025-08-28 08:46:52.013240 - [SKIP] Last backup for BR2 (192.168.209.58) is 0 days old (<7). Skipping.
+2025-08-28 08:48:19.578256 - [SKIP] Last backup for HO (192.168.209.185) is 0 days old (<7). Skipping.
+2025-08-28 08:48:19.581234 - [SKIP] Last backup for BR1 (192.168.209.2) is 0 days old (<7). Skipping.
+2025-08-28 08:48:19.583962 - [SKIP] Last backup for BR2 (192.168.209.58) is 0 days old (<7). Skipping.
+2025-08-28 08:48:36.535964 - [SKIP] Last backup for HO (192.168.209.185) is 0 days old (<7). Skipping.
+2025-08-28 08:48:36.539339 - [SKIP] Last backup for BR1 (192.168.209.2) is 0 days old (<7). Skipping.
+2025-08-28 08:48:36.542374 - [SKIP] Last backup for BR2 (192.168.209.58) is 0 days old (<7). Skipping.
+2025-08-28 08:49:41.710706 - [SKIP] Last backup for HO (192.168.209.185) is 0 days old (<7). Skipping.
+2025-08-28 08:49:41.714703 - [SKIP] Last backup for BR1 (192.168.209.2) is 0 days old (<7). Skipping.
+2025-08-28 08:49:41.718500 - [SKIP] Last backup for BR2 (192.168.209.58) is 0 days old (<7). Skipping.
+2025-08-28 08:50:23.469064 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 08:50:33.472868 - [ERROR] Failed backup for 192.168.209.185 (HO) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.185:22
+
+
+2025-08-28 08:50:33.475593 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 08:50:43.476457 - [ERROR] Failed backup for 192.168.209.2 (BR1) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.2:22
+
+
+2025-08-28 08:50:43.480327 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 08:50:53.489376 - [ERROR] Failed backup for 192.168.209.58 (BR2) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.58:22
+
+
+2025-08-28 08:50:55.229005 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 08:51:05.242379 - [ERROR] Failed backup for 192.168.209.185 (HO) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.185:22
+
+
+2025-08-28 08:51:05.245694 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 08:51:15.252500 - [ERROR] Failed backup for 192.168.209.2 (BR1) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.2:22
+
+
+2025-08-28 08:51:15.256472 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 08:51:25.261994 - [ERROR] Failed backup for 192.168.209.58 (BR2) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.58:22
+
+
