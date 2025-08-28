@@ -100,3 +100,113 @@ Common causes of this problem are:
 Device settings: fortinet 192.168.209.58:22
 
 
+2025-08-28 12:22:18.920543 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 12:22:28.930000 - [ERROR] Failed backup for 192.168.209.185 (HO) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.185:22
+
+
+2025-08-28 12:22:28.934789 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 12:22:38.940731 - [ERROR] Failed backup for 192.168.209.2 (BR1) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.2:22
+
+
+2025-08-28 12:22:38.944029 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 12:22:48.949190 - [ERROR] Failed backup for 192.168.209.58 (BR2) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.58:22
+
+
+2025-08-28 12:26:09.758084 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 12:26:19.768741 - [ERROR] Failed backup for 192.168.209.185 (HO) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.185:22
+
+
+2025-08-28 12:26:19.771896 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 12:26:29.775846 - [ERROR] Failed backup for 192.168.209.2 (BR1) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.2:22
+
+
+2025-08-28 12:26:29.781516 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 12:26:39.788901 - [ERROR] Failed backup for 192.168.209.58 (BR2) - TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: fortinet 192.168.209.58:22
+
+
+2025-08-28 12:31:36.643318 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 12:31:59.907713 - [DEBUG] Detected prompt: HO #
+2025-08-28 12:32:04.314080 - [SUCCESS] Backup sent to TFTP for HO -> HO_backup_20250828-123159.cfg
+2025-08-28 12:32:04.317471 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 12:32:17.634129 - [DEBUG] Detected prompt: BR1 #
+2025-08-28 12:32:22.242259 - [SUCCESS] Backup sent to TFTP for BR1 -> BR1_backup_20250828-123217.cfg
+2025-08-28 12:32:22.247652 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 12:32:36.459044 - [DEBUG] Detected prompt: BR2 #
+2025-08-28 12:32:40.770259 - [SUCCESS] Backup sent to TFTP for BR2 -> BR2_backup_20250828-123236.cfg
+2025-08-28 12:42:02.089538 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 12:42:12.561977 - [DEBUG] Detected prompt: HO #
+2025-08-28 12:42:15.070550 - [SUCCESS] Backup sent to TFTP for HO -> HO_backup_20250828-124212.cfg
+2025-08-28 12:42:15.077596 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 12:42:26.691604 - [DEBUG] Detected prompt: BR1 #
+2025-08-28 12:42:31.199991 - [SUCCESS] Backup sent to TFTP for BR1 -> BR1_backup_20250828-124226.cfg
+2025-08-28 12:42:31.205273 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 12:42:40.458501 - [DEBUG] Detected prompt: BR2 #
+2025-08-28 12:42:42.865263 - [SUCCESS] Backup sent to TFTP for BR2 -> BR2_backup_20250828-124240.cfg
+2025-08-28 12:45:07.079145 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 12:45:20.942339 - [DEBUG] Detected prompt: HO #
+2025-08-28 12:45:25.268112 - [SUCCESS] Backup sent to TFTP for HO -> HO_backup_20250828-124520.cfg
+2025-08-28 12:45:25.378585 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 12:45:37.391088 - [DEBUG] Detected prompt: BR1 #
+2025-08-28 12:45:39.797725 - [SUCCESS] Backup sent to TFTP for BR1 -> BR1_backup_20250828-124537.cfg
+2025-08-28 12:45:39.874694 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 12:45:52.455566 - [ERROR] Failed backup for 192.168.209.58 (BR2) - 
+Pattern not detected: '[#$]' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2025-08-28 13:52:51.827024 - [INFO] Connecting to 192.168.209.185 (HO)
+2025-08-28 13:53:02.295458 - [DEBUG] Detected prompt: HO #
+2025-08-28 13:53:04.700928 - [SUCCESS] Backup sent to TFTP for HO -> HO_backup_20250828-135302.cfg
+2025-08-28 13:53:04.706037 - [INFO] Connecting to 192.168.209.2 (BR1)
+2025-08-28 13:53:15.264515 - [DEBUG] Detected prompt: BR1 #
+2025-08-28 13:53:17.805669 - [SUCCESS] Backup sent to TFTP for BR1 -> BR1_backup_20250828-135315.cfg
+2025-08-28 13:53:17.812765 - [INFO] Connecting to 192.168.209.58 (BR2)
+2025-08-28 13:53:33.743492 - [DEBUG] Detected prompt: BR2 #
+2025-08-28 13:53:38.307640 - [SUCCESS] Backup sent to TFTP for BR2 -> BR2_backup_20250828-135333.cfg

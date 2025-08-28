@@ -80,6 +80,8 @@ def fetch_devices_from_github(url):
 
 # ===== Main =====
 if __name__ == "__main__":
+
+    
     devices = fetch_devices_from_github(csv_url)
     if not devices:
         log_message("[ERROR] No devices found. Exiting.")
